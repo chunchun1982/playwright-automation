@@ -1,0 +1,195 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100]
+                - generic [ref=e104]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - heading "Dashboard" [level=6] [ref=e114]
+        - link "Upgrade" [ref=e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img "profile picture" [ref=e126]
+              - paragraph [ref=e127]: Firstname Lastname
+              - generic [ref=e128]: 
+      - navigation "Topbar Menu" [ref=e130]:
+        - list [ref=e131]:
+          - button "" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: 
+  - generic [ref=e135]:
+    - generic [ref=e137]:
+      - generic [ref=e139]:
+        - generic [ref=e141]:
+          - generic [ref=e142]: 
+          - paragraph [ref=e143]: Time at Work
+        - separator [ref=e144]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - img "profile picture" [ref=e149]
+            - generic [ref=e150]:
+              - paragraph [ref=e151]: Punched Out
+              - paragraph [ref=e152]: "Punched Out: Mar 29th at 01:19 PM (GMT 7)"
+          - generic [ref=e153]:
+            - generic [ref=e154]: 0h 0m Today
+            - button "" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+          - separator [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: This Week
+              - paragraph [ref=e161]: Mar 16 - Mar 22
+            - generic [ref=e162]:
+              - generic [ref=e163]: 
+              - paragraph [ref=e164]: 0h 0m
+      - generic [ref=e168]:
+        - generic [ref=e170]:
+          - generic [ref=e171]: 
+          - paragraph [ref=e172]: My Actions
+        - separator [ref=e173]
+        - generic [ref=e176]:
+          - button [ref=e177] [cursor=pointer]
+          - paragraph [ref=e183] [cursor=pointer]: (1) Pending Self Review
+      - generic [ref=e185]:
+        - generic [ref=e187]:
+          - generic [ref=e188]: 
+          - paragraph [ref=e189]: Quick Launch
+        - separator [ref=e190]
+      - generic [ref=e194]:
+        - generic [ref=e196]:
+          - generic [ref=e197]: 
+          - paragraph [ref=e198]: Buzz Latest Posts
+        - separator [ref=e199]
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - generic [ref=e203] [cursor=pointer]:
+              - img "profile picture" [ref=e205]
+              - generic [ref=e206]:
+                - paragraph [ref=e207]: Firstname devi Lastname
+                - paragraph [ref=e208]: 2026-18-03 06:40 PM
+            - separator [ref=e209]
+            - paragraph [ref=e210]: Hi Everyone Good Afternoon
+          - generic [ref=e211]:
+            - generic [ref=e212] [cursor=pointer]:
+              - img "profile picture" [ref=e214]
+              - generic [ref=e215]:
+                - paragraph [ref=e216]: Firstname devi Lastname
+                - paragraph [ref=e217]: 2020-08-10 09:08 AM
+            - separator [ref=e218]
+            - paragraph [ref=e219]: "Hi All; Linda has been blessed with a baby boy! Linda: With love, we welcome your dear new baby to this world. Congratulations!"
+          - generic [ref=e220]:
+            - generic [ref=e221] [cursor=pointer]:
+              - img "profile picture" [ref=e223]
+              - generic [ref=e224]:
+                - paragraph [ref=e225]: Sania Shaheen
+                - paragraph [ref=e226]: 2020-08-10 09:08 AM
+            - separator [ref=e227]
+            - paragraph [ref=e228]: "World Championship: What makes the perfect snooker player? Mark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays. John Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight. Barry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line. Honourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski."
+          - generic [ref=e229]:
+            - generic [ref=e230] [cursor=pointer]:
+              - img "profile picture" [ref=e232]
+              - generic [ref=e233]:
+                - paragraph [ref=e234]: Rebecca Harmony
+                - paragraph [ref=e235]: 2020-08-10 09:04 AM
+            - separator [ref=e236]
+            - paragraph [ref=e237]: Throwback Thursdays!!
+            - img
+          - generic [ref=e238]:
+            - generic [ref=e239] [cursor=pointer]:
+              - img "profile picture" [ref=e241]
+              - generic [ref=e242]:
+                - paragraph [ref=e243]: Russel Hamilton
+                - paragraph [ref=e244]: 2020-08-10 09:03 AM
+            - separator [ref=e245]
+            - paragraph [ref=e246]: Live SIMPLY Dream BIG Be GREATFULL Give LOVE Laugh LOT.......
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - paragraph [ref=e254]: Employees on Leave Today
+          - generic [ref=e255] [cursor=pointer]: 
+        - separator [ref=e256]
+      - generic [ref=e260]:
+        - generic [ref=e262]:
+          - generic [ref=e263]: 
+          - paragraph [ref=e264]: Employee Distribution by Sub Unit
+        - separator [ref=e265]
+      - generic [ref=e269]:
+        - generic [ref=e271]:
+          - generic [ref=e272]: 
+          - paragraph [ref=e273]: Employee Distribution by Location
+        - separator [ref=e274]
+    - generic [ref=e277]:
+      - paragraph [ref=e278]: OrangeHRM OS 5.8
+      - paragraph [ref=e279]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e280] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```

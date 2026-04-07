@@ -1,0 +1,406 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100]
+                - generic [ref=e104]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - heading "Recruitment" [level=6] [ref=e114]
+        - link "Upgrade" [ref=e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img "profile picture" [ref=e126]
+              - paragraph [ref=e127]: Firstname Lastname
+              - generic [ref=e128]: 
+      - navigation "Topbar Menu" [ref=e130]:
+        - list [ref=e131]:
+          - listitem [ref=e132] [cursor=pointer]:
+            - link "Candidates" [ref=e133]:
+              - /url: "#"
+          - listitem [ref=e134] [cursor=pointer]:
+            - link "Vacancies" [ref=e135]:
+              - /url: "#"
+          - button "" [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: 
+  - generic [ref=e139]:
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - heading "Candidates" [level=5] [ref=e145]
+          - button "" [ref=e148] [cursor=pointer]:
+            - generic [ref=e149]: 
+        - separator [ref=e150]
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - generic [ref=e158]: Job Title
+              - generic [ref=e161] [cursor=pointer]:
+                - generic [ref=e162]: QA Engineer
+                - generic [ref=e164]: 
+            - generic [ref=e166]:
+              - generic [ref=e168]: Vacancy
+              - generic [ref=e171] [cursor=pointer]:
+                - generic [ref=e172]: Software Engineer
+                - generic [ref=e174]: 
+            - generic [ref=e176]:
+              - generic [ref=e178]: Hiring Manager
+              - generic [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]: Rahul Patil
+                - generic [ref=e184]: 
+            - generic [ref=e186]:
+              - generic [ref=e188]: Status
+              - generic [ref=e191] [cursor=pointer]:
+                - generic [ref=e192]: Shortlisted
+                - generic [ref=e194]: 
+          - generic [ref=e196]:
+            - generic [ref=e198]:
+              - generic [ref=e200]: Candidate Name
+              - textbox "Type for hints..." [ref=e204]: John Doe
+              - generic [ref=e205]: Invalid
+            - generic [ref=e207]:
+              - generic [ref=e209]: Keywords
+              - textbox "Enter comma seperated words..." [ref=e211]: Automation Testing
+            - generic [ref=e213]:
+              - generic [ref=e215]: Date of Application
+              - generic [ref=e218]:
+                - textbox "From" [ref=e219]: 2026-01-01
+                - generic [ref=e220] [cursor=pointer]: 
+            - generic [ref=e227]:
+              - textbox "To" [ref=e228]: 2026-31-12
+              - generic [ref=e229] [cursor=pointer]: 
+          - generic [ref=e233]:
+            - generic [ref=e235]: Method of Application
+            - generic [ref=e238] [cursor=pointer]:
+              - generic [ref=e239]: Online
+              - generic [ref=e241]: 
+          - separator [ref=e242]
+          - generic [ref=e243]:
+            - button "Reset" [ref=e244] [cursor=pointer]
+            - button "Search" [ref=e245] [cursor=pointer]
+      - generic [ref=e246]:
+        - button " Add" [ref=e248] [cursor=pointer]:
+          - generic [ref=e249]: 
+          - text: Add
+        - generic [ref=e250]:
+          - separator [ref=e251]
+          - generic [ref=e253]: (11) Records Found
+        - table [ref=e255]:
+          - rowgroup [ref=e256]:
+            - row " Vacancy  Candidate  Hiring Manager  Date of Application  Status  Actions" [ref=e257]:
+              - columnheader "" [ref=e258]:
+                - generic [ref=e260] [cursor=pointer]:
+                  - checkbox "" [ref=e261]
+                  - generic [ref=e263]: 
+              - columnheader "Vacancy " [ref=e264]:
+                - text: Vacancy
+                - generic [ref=e265]:
+                  - generic [ref=e266] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Candidate " [ref=e267]:
+                - text: Candidate
+                - generic [ref=e268]:
+                  - generic [ref=e269] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Hiring Manager " [ref=e270]:
+                - text: Hiring Manager
+                - generic [ref=e271]:
+                  - generic [ref=e272] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Date of Application " [ref=e273]:
+                - text: Date of Application
+                - generic [ref=e274]:
+                  - generic [ref=e275] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Status " [ref=e276]:
+                - text: Status
+                - generic [ref=e277]:
+                  - generic [ref=e278] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Actions" [ref=e279]
+          - rowgroup [ref=e280]:
+            - row " Bhavna Kaur (Deleted) 2026-18-03  " [ref=e282]:
+              - cell "" [ref=e283]:
+                - generic [ref=e286] [cursor=pointer]:
+                  - checkbox "" [ref=e287]
+                  - generic [ref=e289]: 
+              - cell [ref=e290]
+              - cell "Bhavna Kaur" [ref=e291]:
+                - generic [ref=e292]: Bhavna Kaur
+              - cell "(Deleted)" [ref=e293]:
+                - generic [ref=e294]: (Deleted)
+              - cell "2026-18-03" [ref=e295]:
+                - generic [ref=e296]: 2026-18-03
+              - cell [ref=e297]
+              - cell " " [ref=e298]:
+                - generic [ref=e299]:
+                  - button "" [ref=e300] [cursor=pointer]:
+                    - generic [ref=e301]: 
+                  - button "" [ref=e302] [cursor=pointer]:
+                    - generic [ref=e303]: 
+            - row " Eshan Raj (Deleted) 2026-18-03  " [ref=e305]:
+              - cell "" [ref=e306]:
+                - generic [ref=e309] [cursor=pointer]:
+                  - checkbox "" [ref=e310]
+                  - generic [ref=e312]: 
+              - cell [ref=e313]
+              - cell "Eshan Raj" [ref=e314]:
+                - generic [ref=e315]: Eshan Raj
+              - cell "(Deleted)" [ref=e316]:
+                - generic [ref=e317]: (Deleted)
+              - cell "2026-18-03" [ref=e318]:
+                - generic [ref=e319]: 2026-18-03
+              - cell [ref=e320]
+              - cell " " [ref=e321]:
+                - generic [ref=e322]:
+                  - button "" [ref=e323] [cursor=pointer]:
+                    - generic [ref=e324]: 
+                  - button "" [ref=e325] [cursor=pointer]:
+                    - generic [ref=e326]: 
+            - row " Janaki Raman (Deleted) 2026-18-03  " [ref=e328]:
+              - cell "" [ref=e329]:
+                - generic [ref=e332] [cursor=pointer]:
+                  - checkbox "" [ref=e333]
+                  - generic [ref=e335]: 
+              - cell [ref=e336]
+              - cell "Janaki Raman" [ref=e337]:
+                - generic [ref=e338]: Janaki Raman
+              - cell "(Deleted)" [ref=e339]:
+                - generic [ref=e340]: (Deleted)
+              - cell "2026-18-03" [ref=e341]:
+                - generic [ref=e342]: 2026-18-03
+              - cell [ref=e343]
+              - cell " " [ref=e344]:
+                - generic [ref=e345]:
+                  - button "" [ref=e346] [cursor=pointer]:
+                    - generic [ref=e347]: 
+                  - button "" [ref=e348] [cursor=pointer]:
+                    - generic [ref=e349]: 
+            - row " Farida Begum (Deleted) 2026-18-03  " [ref=e351]:
+              - cell "" [ref=e352]:
+                - generic [ref=e355] [cursor=pointer]:
+                  - checkbox "" [ref=e356]
+                  - generic [ref=e358]: 
+              - cell [ref=e359]
+              - cell "Farida Begum" [ref=e360]:
+                - generic [ref=e361]: Farida Begum
+              - cell "(Deleted)" [ref=e362]:
+                - generic [ref=e363]: (Deleted)
+              - cell "2026-18-03" [ref=e364]:
+                - generic [ref=e365]: 2026-18-03
+              - cell [ref=e366]
+              - cell " " [ref=e367]:
+                - generic [ref=e368]:
+                  - button "" [ref=e369] [cursor=pointer]:
+                    - generic [ref=e370]: 
+                  - button "" [ref=e371] [cursor=pointer]:
+                    - generic [ref=e372]: 
+            - row " Arun Deshmukh (Deleted) 2026-18-03  " [ref=e374]:
+              - cell "" [ref=e375]:
+                - generic [ref=e378] [cursor=pointer]:
+                  - checkbox "" [ref=e379]
+                  - generic [ref=e381]: 
+              - cell [ref=e382]
+              - cell "Arun Deshmukh" [ref=e383]:
+                - generic [ref=e384]: Arun Deshmukh
+              - cell "(Deleted)" [ref=e385]:
+                - generic [ref=e386]: (Deleted)
+              - cell "2026-18-03" [ref=e387]:
+                - generic [ref=e388]: 2026-18-03
+              - cell [ref=e389]
+              - cell " " [ref=e390]:
+                - generic [ref=e391]:
+                  - button "" [ref=e392] [cursor=pointer]:
+                    - generic [ref=e393]: 
+                  - button "" [ref=e394] [cursor=pointer]:
+                    - generic [ref=e395]: 
+            - row " Irfan Irfan Khan (Deleted) 2026-18-03  " [ref=e397]:
+              - cell "" [ref=e398]:
+                - generic [ref=e401] [cursor=pointer]:
+                  - checkbox "" [ref=e402]
+                  - generic [ref=e404]: 
+              - cell [ref=e405]
+              - cell "Irfan Irfan Khan" [ref=e406]:
+                - generic [ref=e407]: Irfan Irfan Khan
+              - cell "(Deleted)" [ref=e408]:
+                - generic [ref=e409]: (Deleted)
+              - cell "2026-18-03" [ref=e410]:
+                - generic [ref=e411]: 2026-18-03
+              - cell [ref=e412]
+              - cell " " [ref=e413]:
+                - generic [ref=e414]:
+                  - button "" [ref=e415] [cursor=pointer]:
+                    - generic [ref=e416]: 
+                  - button "" [ref=e417] [cursor=pointer]:
+                    - generic [ref=e418]: 
+            - row " Dhanya Menon (Deleted) 2026-18-03  " [ref=e420]:
+              - cell "" [ref=e421]:
+                - generic [ref=e424] [cursor=pointer]:
+                  - checkbox "" [ref=e425]
+                  - generic [ref=e427]: 
+              - cell [ref=e428]
+              - cell "Dhanya Menon" [ref=e429]:
+                - generic [ref=e430]: Dhanya Menon
+              - cell "(Deleted)" [ref=e431]:
+                - generic [ref=e432]: (Deleted)
+              - cell "2026-18-03" [ref=e433]:
+                - generic [ref=e434]: 2026-18-03
+              - cell [ref=e435]
+              - cell " " [ref=e436]:
+                - generic [ref=e437]:
+                  - button "" [ref=e438] [cursor=pointer]:
+                    - generic [ref=e439]: 
+                  - button "" [ref=e440] [cursor=pointer]:
+                    - generic [ref=e441]: 
+            - row " Emmanuel S Mikalanje (Deleted) 2026-18-03  " [ref=e443]:
+              - cell "" [ref=e444]:
+                - generic [ref=e447] [cursor=pointer]:
+                  - checkbox "" [ref=e448]
+                  - generic [ref=e450]: 
+              - cell [ref=e451]
+              - cell "Emmanuel S Mikalanje" [ref=e452]:
+                - generic [ref=e453]: Emmanuel S Mikalanje
+              - cell "(Deleted)" [ref=e454]:
+                - generic [ref=e455]: (Deleted)
+              - cell "2026-18-03" [ref=e456]:
+                - generic [ref=e457]: 2026-18-03
+              - cell [ref=e458]
+              - cell " " [ref=e459]:
+                - generic [ref=e460]:
+                  - button "" [ref=e461] [cursor=pointer]:
+                    - generic [ref=e462]: 
+                  - button "" [ref=e463] [cursor=pointer]:
+                    - generic [ref=e464]: 
+            - row " Chirag Patel (Deleted) 2026-18-03  " [ref=e466]:
+              - cell "" [ref=e467]:
+                - generic [ref=e470] [cursor=pointer]:
+                  - checkbox "" [ref=e471]
+                  - generic [ref=e473]: 
+              - cell [ref=e474]
+              - cell "Chirag Patel" [ref=e475]:
+                - generic [ref=e476]: Chirag Patel
+              - cell "(Deleted)" [ref=e477]:
+                - generic [ref=e478]: (Deleted)
+              - cell "2026-18-03" [ref=e479]:
+                - generic [ref=e480]: 2026-18-03
+              - cell [ref=e481]
+              - cell " " [ref=e482]:
+                - generic [ref=e483]:
+                  - button "" [ref=e484] [cursor=pointer]:
+                    - generic [ref=e485]: 
+                  - button "" [ref=e486] [cursor=pointer]:
+                    - generic [ref=e487]: 
+            - row " Harini Rao (Deleted) 2026-18-03  " [ref=e489]:
+              - cell "" [ref=e490]:
+                - generic [ref=e493] [cursor=pointer]:
+                  - checkbox "" [ref=e494]
+                  - generic [ref=e496]: 
+              - cell [ref=e497]
+              - cell "Harini Rao" [ref=e498]:
+                - generic [ref=e499]: Harini Rao
+              - cell "(Deleted)" [ref=e500]:
+                - generic [ref=e501]: (Deleted)
+              - cell "2026-18-03" [ref=e502]:
+                - generic [ref=e503]: 2026-18-03
+              - cell [ref=e504]
+              - cell " " [ref=e505]:
+                - generic [ref=e506]:
+                  - button "" [ref=e507] [cursor=pointer]:
+                    - generic [ref=e508]: 
+                  - button "" [ref=e509] [cursor=pointer]:
+                    - generic [ref=e510]: 
+            - row " Ganesh Sundaram (Deleted) 2026-18-03  " [ref=e512]:
+              - cell "" [ref=e513]:
+                - generic [ref=e516] [cursor=pointer]:
+                  - checkbox "" [ref=e517]
+                  - generic [ref=e519]: 
+              - cell [ref=e520]
+              - cell "Ganesh Sundaram" [ref=e521]:
+                - generic [ref=e522]: Ganesh Sundaram
+              - cell "(Deleted)" [ref=e523]:
+                - generic [ref=e524]: (Deleted)
+              - cell "2026-18-03" [ref=e525]:
+                - generic [ref=e526]: 2026-18-03
+              - cell [ref=e527]
+              - cell " " [ref=e528]:
+                - generic [ref=e529]:
+                  - button "" [ref=e530] [cursor=pointer]:
+                    - generic [ref=e531]: 
+                  - button "" [ref=e532] [cursor=pointer]:
+                    - generic [ref=e533]: 
+    - generic [ref=e535]:
+      - paragraph [ref=e536]: OrangeHRM OS 5.8
+      - paragraph [ref=e537]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e538] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```
