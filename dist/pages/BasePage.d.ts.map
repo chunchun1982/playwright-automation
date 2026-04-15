@@ -1,0 +1,1 @@
+{"version":3,"file":"BasePage.d.ts","sourceRoot":"","sources":["../../pages/BasePage.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAQ,MAAM,kBAAkB,CAAC;AAC9C,qBAAa,QAAQ;IAEnB,QAAQ,CAAC,IAAI,EAAC,IAAI,CAAC;gBACP,IAAI,EAAC,IAAI;IAMf,kBAAkB,CAAC,OAAO,EAAE,MAAM;IAIlC,WAAW,CAAC,IAAI,EAAE,GAAG,EAAE,IAAI,EAAE,MAAM;CAK1C"}

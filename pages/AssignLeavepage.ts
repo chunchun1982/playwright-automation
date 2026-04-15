@@ -16,12 +16,10 @@ export class AssignLeavepage {
     this.leaveMenu = page.locator('a:has-text("Leave")');
     this.assignLeaveSubMenu = page.locator('a:has-text("Assign Leave")');
     this.employeeNameInput = page.getByRole('textbox', { name: 'Type for hints...' });
-    //this.leaveTypeDropdown = page.locator('select#leaveType');
     this.leaveTypeDropdown = page.locator("div.oxd-input-group:has(label:has-text('Leave Type')) .oxd-select-text");
-    //this.fromDateInput = page.locator('input#fromDate');
-    this.fromDateInput = page.getByPlaceholder('yyyy-mm-dd').first();
-    this.toDateInput = page.getByPlaceholder('yyyy-mm-dd').nth(1);
-    this.commentsTextarea = page.locator('textarea#comments');
+    this.fromDateInput = page.locator("div.oxd-input-group:has(label:has-text('From Date')) input");
+    this.toDateInput = page.locator("div.oxd-input-group:has(label:has-text('To Date')) input");
+    this.commentsTextarea = page.locator("div.oxd-input-group:has(label:has-text('Comments')) textarea");
     this.assignButton = page.locator('button:has-text("Assign")');
   }
 
@@ -74,26 +72,18 @@ export class AssignLeavepage {
     await dropdownList.waitFor({ state: 'hidden', timeout: 5000 });
   }
 
+  async setDate(input: Locator, date: string) {
+    await input.click();
+    await input.fill(date);
+    await input.blur();
+  }
+
   async setFromDate(date: string) {
-    // Click to focus the field first
-    await this.fromDateInput.click();
-    // Clear any existing value
-    await this.fromDateInput.clear();
-    // Type the date character by character
-    await this.fromDateInput.pressSequentially(date);
-    // Optional: Trigger blur event to ensure field processes the input
-    await this.fromDateInput.blur();
+    await this.setDate(this.fromDateInput, date);
   }
 
   async setToDate(date: string) {
-    // Click to focus the field first
-    await this.toDateInput.click();
-    // Clear any existing value
-    await this.toDateInput.clear();
-    // Type the date character by character
-    await this.toDateInput.pressSequentially(date);
-    // Optional: Trigger blur event to ensure field processes the input
-    await this.toDateInput.blur();
+    await this.setDate(this.toDateInput, date);
   }
 
   async addComments(text: string) {

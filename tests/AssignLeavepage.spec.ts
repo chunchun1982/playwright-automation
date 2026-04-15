@@ -18,7 +18,7 @@ test.describe('Assign Leave Tests', () => {
      
     // Assign leave
     await assignLeavePage.assignLeave({
-      employeeName: 'shivani  katula', // Replace with actual employee name
+      employeeName: 'Ranga  Akunuri', // Replace with actual employee name
       leaveType: 'CAN - Personal', // Replace with actual leave type
       fromDate: '2026-04-10',
       toDate: '2026-04-12',
