@@ -19,6 +19,12 @@ test.describe('Login Test with Excel Data', () => {
       await page.fill('input[name="username"]', data.username);
       await page.fill('input[name="password"]', data.password);
       await page.click('button[type="submit"]');
+      // add assertions based on expected outcomes, e.g., successful login or error message
+      if (data.username === 'Admin' && data.password === 'admin123') {
+        await expect(page).toHaveURL(/dashboard/);
+      } else {
+        await expect(page.getByText(/invalid credentials/i)).toBeVisible();
+      }
 
     });
 
