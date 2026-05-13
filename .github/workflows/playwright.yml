@@ -31,7 +31,8 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      run: npx playwright test --workers=3 --retries=2
+    -  run: npx playwright test --workers=3 --retries=2
+      run: npx playwright test paralleltestcase.spec.
 
     - name: Upload Playwright Report
       if: always()
