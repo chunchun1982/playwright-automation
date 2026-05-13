@@ -31,7 +31,11 @@ test.describe('Parallel Login Tests', () => {
       // Optional: Validate unique session (no collision)
       console.log(`Logged in with: ${user.username}`);
       console.log(`Running in worker: ${test.info().workerIndex}`);
+      
+      
     });
+    
+
 
   });
 
