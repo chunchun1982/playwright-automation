@@ -11,10 +11,13 @@ export class AuctionLoginPage {
     readonly Masters: Locator;
     readonly clientMgmt: Locator;
     readonly clientmaster: Locator;
+    readonly BidderMgmt: Locator;
+    readonly Biddermaster: Locator;
 
 
 
-    constructor(page: Page    ) {
+
+    constructor(page: Page ) {
         this.page = page;
         this.Bidderlogin = page.getByRole('link', { name: 'Bidder Login' });
         this.username = page.getByRole('textbox', { name: /username/i });
@@ -26,7 +29,8 @@ export class AuctionLoginPage {
         this.Masters = page.getByRole('link', { name: 'Masters' });
         this.clientMgmt = page.getByRole('link', { name: 'Client Management' });
         this.clientmaster = page.getByRole('link', { name: 'Client Master' });
-
+        this.BidderMgmt = page.getByRole('link', { name: 'Bidder Management' });
+        this.Biddermaster = page.getByRole('link', { name: 'Bidder Master' });
     } 
     async goto() {
         await this.page.goto('http://auctionit-new-testing.intellicomcenters.com/');
@@ -59,4 +63,13 @@ export class AuctionLoginPage {
         await this.clientMgmt.hover();
         await this.clientmaster.click();
     }
+    async navigateToBidderMaster() {
+    await this.Masters.waitFor({ state: 'visible' });
+    await this.Masters.hover();
+    await this.BidderMgmt.waitFor({ state: 'visible' });
+    await this.BidderMgmt.hover();
+    await this.Biddermaster.waitFor({ state: 'visible' });
+    await this.Biddermaster.click();
+   // await this.page.waitForLoadState('networkidle');
+}
 }      

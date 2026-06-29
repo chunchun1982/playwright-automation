@@ -17,7 +17,7 @@ export class AddClientPage {
     readonly saveButton: Locator;
     constructor(page: Page) {
         this.page = page;
-        this.addClientButton = this.addClientButton = page.locator('#btnadd');;
+        this.addClientButton = page.locator('#btnadd');
         this.Companyname =page.locator('#CompanyName');
         this.RegAddress = page.locator('#RegisteredAddress');
         this.countrydropdown = page.locator('#ddlCountry');
