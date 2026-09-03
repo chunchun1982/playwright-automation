@@ -1,12 +1,13 @@
-import { Page, Locator, expect} from "@playwright/test";
-export class DashBoardPage {
+import { Page, Locator, expect } from "@playwright/test";
+import { BasePage } from "./BasePage";
 
-  readonly page: Page;
+export class DashBoardPage extends BasePage {
+
   readonly dashboardHeading: Locator;
   readonly quickLaunchCard: Locator;
 
   constructor(page: Page) {
-    this.page = page;
+    super(page);
 
     this.dashboardHeading = page.getByRole('heading', { name: 'Dashboard' });
 
@@ -22,7 +23,16 @@ export class DashBoardPage {
   }
 
   async clickAssignLeave() {
-  await this.page.getByRole('button', { name: 'Assign Leave' }).click();
-}
-
+    await this.page.getByRole('button', { name: 'Assign Leave' }).click();
   }
+
+  /**
+   * Opens the user profile dropdown and clicks Logout.
+   * Waits for navigation back to the login page (URL: /) before resolving.
+   */
+  async logout(): Promise<void> {
+    await this.page.getByRole('banner').locator('li.oxd-userdropdown').click();
+    await this.page.getByRole('menuitem', { name: /logout/i }).click();
+    await expect(this.page).toHaveURL(/auth\/login/);
+  }
+}

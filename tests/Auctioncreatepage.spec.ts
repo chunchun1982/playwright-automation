@@ -53,6 +53,8 @@ test.describe('Auction Creation Tests', () => {
 
     const auctionCreatePage = new Auctioncreatepage(page);
 
+
+
     await allure.step('Create New Auction', async () => {
       await auctionCreatePage.addclientsave(
         'India',
